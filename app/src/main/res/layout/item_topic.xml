@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/item_topic_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/item_topic_padding">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/thumbnail_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/item_topic_image_horizontal_margin"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/item_topic_vertical_field_margin"
+                android:gravity="top"
+                android:textColor="@color/title_text_color"
+                tools:text="ailed John Dunsworth asking him to make a video for my friend's birthday. This is what he sent me. (RIP Mr. Lahey)" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/created_info_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/item_topic_vertical_field_margin"
+                tools:text="created 23 hours ago by Oleksandr" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/comments_num_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="324 comments" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

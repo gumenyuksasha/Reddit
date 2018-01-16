@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pagination_image_size">48dp</dimen>
+    <dimen name="pagination_text_size">18sp</dimen>
+    <dimen name="pagination_horizontal_padding">16dp</dimen>
+    <dimen name="item_topic_margin">8dp</dimen>
+    <dimen name="item_topic_padding">16dp</dimen>
+    <dimen name="item_topic_vertical_field_margin">12dp</dimen>
+    <dimen name="item_topic_image_horizontal_margin">12dp</dimen>
+</resources>
